@@ -9,7 +9,7 @@
 3. [Understand Fundamental Docker Concepts](#understand-fundamental-docker-concepts)
 
 ## Linux + Shell Basic
-เผื่อมึงไม่รู้อะไรเลยว่าอะไรคือ Shell และทำงานยังไง แต่เราน่าจะมีเครื่อง Ubuntu
+เผื่อมึงไม่รู้อะไรเลยว่าอะไรคือ Shell และทำงานยังไง เพราะว่าเรายังไม่เคยเรียนเรื่องนี้มาก่อน แต่เราน่าจะมีเครื่อง Ubuntu
 - ใน Windows เราจะใช้ VirtualBox สร้าง VM Ubuntu ขึ้นมา
 - ใน MacOS เราจะใช้ UTM สร้าง VM Ubuntu ขึ้นมา
 
@@ -109,6 +109,10 @@ command [options] [arguments]
 
 นี่คือคำสั่งพื้นฐานที่เราควรรู้จักก่อนที่จะไปต่อกับ Docker
 
+> [!TIP]
+> ควรจะฝึกใช้คำสั่งเหล่านี้ให้คล่อง
+> เพราะว่าคุณจะได้ใช้มันบ่อยมากๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ
+
 ## Install Docker
 ```bash
 sudo apt update # อัพเดตฐานข้อมูลแพ็กเกจ
@@ -119,6 +123,7 @@ sudo usermod -aG docker $USER # เพิ่มผู้ใช้ปัจจุ
 docker --version # ตรวจสอบเวอร์ชันของ Docker
 docker run hello-world # ทดสอบการรันคอนเทนเนอร์แรก
 ```
+อันนี้ไม่ต้องจำแค่คำสั่งคร่าวๆ ในการลง docker จะได้ลงเสร็จ
 
 ## Understand Fundamental Docker Concepts
 ทำไมเราต้องใช้ Docker เพราะว่า Docker เกิดมาเพื่อแก้ปัญหาหลายๆ อย่าง เช่น
